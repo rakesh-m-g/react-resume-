@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+  width: 98vw;
+}
+
+.App-logo {
+  height: 40vmin;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+* {
+  background-color: #ffffff;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#root {
+  margin: 0;
+}
+body {
+  /* padding-top: 100px; */
+  background-color: #ffffff;
+  font-family: var(--bs-body-font-family);
+  -webkit-font-smoothing: antialiased;
+  /* overflow: hidden; */
+  scrollbar-width: none;
+}
+.cover {
+  height: 210vh;
+  background-color: #ffffff;
+}
+.card-body {
+  width: 100px;
+  height: 50px;
+}
+h1 {
+  font-size: 2.75rem;
+  color: #00bfff;
+  font-weight: 900;
+  letter-spacing: 0.4rem;
+}
+h3 {
+  position: relative;
+  padding-left: 1rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.15rem;
+  color: #00bfff;
+}
+.item-title {
+  font-size: 1rem;
+}
+.item-meta {
+  font-size: 0.75rem;
+  color: #f0ecec7a;
+}
+
+.resume-info,
+p,
+li {
+  font-size: 0.875rem;
+  line-height: 2em;
+  letter-spacing: 0.09rem;
+}
+hr {
+  border-top: 1px solid #f4f0f0;
+  padding: 0;
+  margin: 0;
+}
+.resume-profile-image {
+  max-width: 150px;
+}
+.resume-profile-image2 {
+  max-width: 210px;
+  border-radius: 50%;
+  background: #282c34;
+}
+.resume-link {
+  color: #00bfff;
+}
+svg {
+  color: #8b8b8bd6;
+}
+.contact {
+  color: #8b8b8bd6;
+}
+.resume-link {
+  text-decoration: none;
+}
+img {
+  border-radius: 50%;
+}
+.sidebar-h2,
+.sidebar-main,
+.sidebar-head,
+.sidebar-img,
+.hairMe-button-case,
+.sidebar-description {
+  background: #282c34;
+}
+.sidebar-img {
+  height: 15em;
+  margin-top: 13vh;
+}
+.sidebar-description {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #f4f0f0;
+}
+.sidebar-head {
+  max-height: 110vh;
+}
+.hairMe-button {
+  border-radius: 30px;
+  overflow: hidden;
+}
+.hairMe-button:hover {
+  border: 3px solid #61dafb;
+  color: #ffffff;
+}
+/* .sidebar-main {
+  max-height: 100vh;
+  position: relative;
+  z-index: 9;
+} */
+.resume-container {
+  padding: 0;
+  position: absolute;
+  /* scroll-behavior: smooth; */
+}
+/* .row {
+  max-width: 100vw;
+} */
+.hairMe-button-case {
+  margin-top: 13vh;
+}
+h2,
+.hair-me,
+.sidebar-description {
+  font-family: "Orbitron", sans-serif;
+  color: #ffffff;
+}
