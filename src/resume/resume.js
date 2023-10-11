@@ -1,8 +1,10 @@
-
+import StaticExample from './button-popup';
 import { useState } from "react";
 import "./resume.css";
+import { ContactUs } from '../resume/contactpage';
 import logo from "../logo.svg";
 const navItems = ["Home", "Contact"];
+
 
 
 
@@ -196,15 +198,16 @@ export function ResumeMain() {
                         </div>
                     </div>
                 </div>
-            </article>  
+            </article> 
+            <ContactUs /> 
         </div>
     )
 }
 
 export function Sidebar(){
     return(
-        <div className="col-0 sidebar-head p-1 ms-1 col-lg-12 ">
-            <h2 className="sidebar-h2 col-12 col-lg-0  mt-5">RAKESH MG</h2>
+        <div className="col-0 sidebar-head p-1 ms-1 col-lg-12 col-0 ">
+            <h2 className="sidebar-h2 col-lg-0  mt-5">RAKESH MG</h2>
             <div className="sidebar-img d-flex justify-content-center align-items-center col-12 col-md-12 col-xl-12
 ">
                             <img className="resume-profile-image2 col-11 rounded mx-auto" src="https://avatars.githubusercontent.com/u/99459358?s=400&u=734231ac06978ed7382a9b63a89b0f78cb556729&v=4" alt=" profile"/>
@@ -214,14 +217,9 @@ export function Sidebar(){
                           Hi, My name is Rakesh MG and I'm a fullstack engineer.
                           </h6>
                         </div>
-                        <div className='hairMe-button-case d-flex align-items-center justify-content-center '>
-                           <div className='hairMe-button col-8 '>
-                              <a href="#"><i class="bi bi-send"></i> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
-  <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
-</svg><span className="hair-me d-none d-lg-inline-block text-muted p-2">Hair Me</span>
-</a>
-                        </div>
-            </div>
+                       
+                       
+                       
         </div>
                         
 
